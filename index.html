@@ -57,16 +57,7 @@
         ttq.load("COT4QIJC77U8DR5JPEOG");
         ttq.page();
       })(window, document, "ttq");
-    //   function getCookie(name) {
-    //         let cookie = {};
-    //         document.cookie.split(';').forEach(function (el) {
-    //             let [k, v] = el.split('=');
-    //             cookie[k.trim()] = v;
-    //         })
-    //         return cookie[name];
-    //     }
-    //     getCookie('ttclid') // TikTok Click ID
-    //     getCookie('_ttp') //Cookie id
+   
     
     </script>
   </head>
@@ -93,6 +84,16 @@
     <!-- Script for tiktok -->
     <script>
       ttq.instance("COT4QIJC77U8DR5JPEOG").track("CompleteRegistration");
+      function getCookie(name) {
+            let cookie = {};
+            document.cookie.split(';').forEach(function (el) {
+                let [k, v] = el.split('=');
+                cookie[k.trim()] = v;
+            })
+            return cookie[name];
+        }
+        getCookie('ttclid') // TikTok Click ID
+        getCookie('_ttp') //Cookie id
     </script>
   </body>
 </html>
